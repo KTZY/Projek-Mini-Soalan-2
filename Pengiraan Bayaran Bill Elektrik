@@ -2,20 +2,20 @@ PE=float(input("Masukkan penggunaan elektrik(kWj): "))
 UPE=0
 KT=0
 Bayaran=0
-if PE >= 0:
+if PE > 0:
     KT=0.218
     UPE=200
-    Bayaran=UPE*KT
-elif PE >= 201:
+    Bayaran=PE*KT
+elif PE > 200:
     KT=0.334
     UPE=100
-    Bayaran=UPE*KT
-elif PE >= 301:
+    Bayaran=PE*KT
+elif PE > 300:
     KT=0.516
     UPE=300
-    Bayaran=UPE*KT
-elif PE >= 601:
+    Bayaran=PE*KT
+elif PE > 600:
     KT=0.546
     UPE=300
-    Bayaran=UPE*KT
+    Bayaran=PE*KT
 print("Bayaran bill elektrik ialah RM",Bayaran)
