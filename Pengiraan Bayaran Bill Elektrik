@@ -19,5 +19,5 @@ elif PE > 600:
     KT=0.546
     UPE=300
     Bayaran=PE*KT
-print("\nBayaran bill elektrik ialah RM",Bayaran)
+print("\nBayaran bill elektrik ialah RM",Bayaran,"dan unit penggunaan elektrik ialah",UPE,"kWj.")
 print("\nSelesai pengiraan bayaran bill elektrik.")
