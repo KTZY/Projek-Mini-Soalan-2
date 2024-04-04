@@ -1,4 +1,5 @@
-PE=float(input("Masukkan penggunaan elektrik(kWj): "))
+print("***Pengiraan Bayaran Bill Elektrik***")
+PE=float(input("\nMasukkan penggunaan elektrik(kWj): "))
 UPE=0
 KT=0
 Bayaran=0
@@ -18,4 +19,5 @@ elif PE > 600:
     KT=0.546
     UPE=300
     Bayaran=PE*KT
-print("Bayaran bill elektrik ialah RM",Bayaran)
+print("\nBayaran bill elektrik ialah RM",Bayaran)
+print("\nSelesai pengiraan bayaran bill elektrik.")
